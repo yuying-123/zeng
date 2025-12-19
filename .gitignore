@@ -1,0 +1,44 @@
+# 忽略临时文件和日志
+*.log
+*.tmp
+*.temp
+
+# 忽略Python相关文件
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 忽略大型数据文件
+# 暂时允许上传xlsx数据文件用于部署
+# *.xlsx
+*.csv
+*.zip
+
+# 忽略文件夹
+数字经济/
+2014/
+
+# 忽略环境配置
+.env
+.env.local
+.env.*.local
+
+# 忽略IDE相关文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略操作系统文件
+Thumbs.db
+.DS_Store
+
+# 忽略已编译的文件
+*.dll
+*.so
+*.pyd
+
+# 忽略测试文件
+*_test.py
+*.spec
