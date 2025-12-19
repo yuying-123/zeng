@@ -1,0 +1,78 @@
+# Python项目忽略规则
+*.pyc
+__pycache__/
+venv/
+env/
+.pytest_cache/
+
+# 数据文件（如果太大可以忽略）
+# 历年数字化转型指数汇总.xlsx
+# 合并后股票数据.xlsx
+
+# 大型目录
+数字经济/
+完整汇总文件夹.zip
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# Windows系统文件
+Thumbs.db
+.DS_Store
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 批处理文件（如果不需要可以忽略）
+# run_app.bat
+# 运行查询系统.bat# 忽略临时文件和日志
+*.log
+*.tmp
+*.temp
+
+# 忽略Python相关文件
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 忽略大型数据文件
+# 暂时允许上传xlsx数据文件用于部署
+# *.xlsx
+*.csv
+*.zip
+
+# 忽略文件夹
+数字经济/
+2014/
+
+# 忽略环境配置
+.env
+.env.local
+.env.*.local
+
+# 忽略IDE相关文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略操作系统文件
+Thumbs.db
+.DS_Store
+
+# 忽略已编译的文件
+*.dll
+*.so
+*.pyd
+
+# 忽略测试文件
+*_test.py
+*.spec
